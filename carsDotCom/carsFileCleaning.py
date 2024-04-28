@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------------
+# SEGA97
+# Gets the Cars.com CSV fileand removes rows with missing or irrelevant information, 
+# extracts year, make, and model details from the title, 
+# formats numerical data like miles and price, 
+# stoes the cleaned data in a new CSV file
+# ------------------------------------------------------------------------------------
 
 import pandas as pd
 
@@ -11,6 +18,7 @@ cars = pd.read_csv(path+'.csv',
 
 # Drop if no title
 cars = cars.dropna(subset=['Title'])
+cars = cars[~cars['Title'].str.contains('None')]
 
 # Extract the year, make, and model information from the 'Title' column
 cars['Year']=cars['Title'].str.split(' ').str[0]
@@ -29,17 +37,20 @@ cars['Deal']=cars['Deal'].replace('"', '')
 cars['Deal']=cars['Deal'].str.split(' ').str[:2].str.join(" ")
 
 
-# Convert 'Year' to integer type, remove commas from 'Price' and 'Miles'
+# Convert 'Year' to integer type
 cars['Year'] = cars['Year'].fillna(0).astype(int)
 
 # Remove commas from 'Price' and 'Miles' and convert to integer
 cars['Price']=cars['Price'].str.replace(',', '')
 cars['Miles']=cars['Miles'].str.replace(',', '')
 
-# Drop rows with NaN values in 'Price', fill NaN values in 'Miles' with 0, and convert to integer
+# Drop rows with NaN values in 'Price', 'Miles' and convert to integers
 cars = cars.dropna(subset=['Price'])
-cars['Price']=cars['Price'].astype(int)
-cars['Miles']=cars['Miles'].fillna(0).astype(int)
+cars = cars.dropna(subset=['Miles'])
+cars['Price'] = cars['Price'].astype(int)
+cars['Miles'] = cars['Miles'].replace('', '0').astype(int)
+
+
 
 # Write the cleaned data back to a new CSV file with 'cleaned' appended to the original file name
 cars.to_csv(path+'_cleaned.csv', mode='a', index=False, header=True)

@@ -2,7 +2,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2014 Lexus GX 460 Base,116480,23987,Fair,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 460,118131,22490,Good,2014,Lexus,GX 460 460
 2014 Lexus GX 460 Luxury,133167,24744,Fair,2014,Lexus,GX 460 Luxury
-2014 Lexus GX 460 Base,124481,21488,,2014,Lexus,GX 460 Base
+2014 Lexus GX 460 Base,124481,21488,None,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Base,106325,27995,Fair,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Luxury,134308,23895,Fair,2014,Lexus,GX 460 Luxury
 2014 Lexus GX 460 Luxury,98000,28900,Fair,2014,Lexus,GX 460 Luxury
@@ -23,8 +23,8 @@ Title,Miles,Price,Deal,Year,Make,Model
 2014 Lexus GX 460 Base,73136,26555,Good,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Base,84057,26991,Good,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Base,140243,22999,Fair,2014,Lexus,GX 460 Base
-2014 Lexus GX 460 Base,153858,26999,,2014,Lexus,GX 460 Base
-2014 Lexus GX 460 Base,155698,24998,,2014,Lexus,GX 460 Base
+2014 Lexus GX 460 Base,153858,26999,None,2014,Lexus,GX 460 Base
+2014 Lexus GX 460 Base,155698,24998,None,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Base,151379,20995,Fair,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Luxury,108464,23995,Fair,2014,Lexus,GX 460 Luxury
 2014 Lexus GX 460 Base,115733,23850,Fair,2014,Lexus,GX 460 Base
@@ -37,7 +37,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2014 Lexus GX 460 Base,163847,19481,Fair,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Luxury,122575,25998,Good,2014,Lexus,GX 460 Luxury
 2014 Lexus GX 460 Luxury,164096,20999,Fair,2014,Lexus,GX 460 Luxury
-2014 Lexus GX 460 Base,164363,21364,,2014,Lexus,GX 460 Base
+2014 Lexus GX 460 Base,164363,21364,None,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Base,112520,25988,Fair,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Base,88314,24495,Good,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 GX 460 Sport Utility 4D,98534,22995,Good,2014,Lexus,GX 460 GX 460 Sport Utility 4D
@@ -121,7 +121,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2015 Lexus GX 460 4WD 4dr,91360,25888,Good,2015,Lexus,GX 460 4WD 4dr
 2015 Lexus GX 460 Base,97908,24977,Good,2015,Lexus,GX 460 Base
 2015 Lexus GX 460 Base,135390,25900,Fair,2015,Lexus,GX 460 Base
-2015 Lexus GX 460 Base,141000,24699,,2015,Lexus,GX 460 Base
+2015 Lexus GX 460 Base,141000,24699,None,2015,Lexus,GX 460 Base
 2015 Lexus GX 460 Luxury,111336,27599,Fair,2015,Lexus,GX 460 Luxury
 2016 Lexus GX 460 460,106649,22412,Good,2016,Lexus,GX 460 460
 2016 Lexus GX 460 Base,98668,26468,Good,2016,Lexus,GX 460 Base
@@ -130,7 +130,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2016 Lexus GX 460 Base,96422,27991,Good,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 Base,81559,29998,Good,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 Base,58957,29999,Good,2016,Lexus,GX 460 Base
-2016 Lexus GX 460 Base AWD 4dr SUV,79000,26750,,2016,Lexus,GX 460 Base AWD 4dr SUV
+2016 Lexus GX 460 Base AWD 4dr SUV,79000,26750,None,2016,Lexus,GX 460 Base AWD 4dr SUV
 2016 Lexus GX 460 Base,171947,23397,Fair,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 460,112061,25640,Good,2016,Lexus,GX 460 460
 2016 Lexus GX 460 Base,73094,22500,Great,2016,Lexus,GX 460 Base
@@ -143,7 +143,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2016 Lexus GX 460,79037,30000,Good,2016,Lexus,GX 460
 2016 Lexus GX 460 Base,135875,24790,Good,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 460,45840,32987,Good,2016,Lexus,GX 460 460
-2016 Lexus GX 460 460,90479,26500,,2016,Lexus,GX 460 460
+2016 Lexus GX 460 460,90479,26500,None,2016,Lexus,GX 460 460
 2016 Lexus GX 460 Base,87448,28999,Good,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 Base,117658,27459,Fair,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 460,128979,22500,Good,2016,Lexus,GX 460 460
@@ -192,7 +192,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2016 Lexus GX 460 Base,135720,21995,Good,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 Luxury,118424,25555,Great,2016,Lexus,GX 460 Luxury
 2016 Lexus GX 460 Base,42000,33777,Good,2016,Lexus,GX 460 Base
-2016 Lexus GX 460 Base,54048,21999,,2016,Lexus,GX 460 Base
+2016 Lexus GX 460 Base,54048,21999,None,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 Luxury,116873,22995,Good,2016,Lexus,GX 460 Luxury
 2017 Lexus GX 460 460,114452,23285,Good,2017,Lexus,GX 460 460
 2017 Lexus GX 460 Base,78749,29978,Good,2017,Lexus,GX 460 Base
@@ -211,7 +211,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2017 Lexus GX 460 Base,82344,25499,Good,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 Base,97067,27393,Great,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 Luxury,86568,29000,Good,2017,Lexus,GX 460 Luxury
-2017 Lexus GX 460 Luxury,118127,39995,,2017,Lexus,GX 460 Luxury
+2017 Lexus GX 460 Luxury,118127,39995,None,2017,Lexus,GX 460 Luxury
 2017 Lexus GX 460 Luxury,89957,30987,Good,2017,Lexus,GX 460 Luxury
 2017 Lexus GX 460 GX 460 Sport Utility 4D,96256,30900,Fair,2017,Lexus,GX 460 GX 460 Sport Utility 4D
 2017 Lexus GX 460 GX 460 4WD,85278,28995,Good,2017,Lexus,GX 460 GX 460 4WD
@@ -231,7 +231,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2017 Lexus GX 460 Base,73702,29690,Good,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 Base,88676,28599,Good,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 Base,79648,28549,Good,2017,Lexus,GX 460 Base
-2017 Lexus GX 460 Base,50752,31998,,2017,Lexus,GX 460 Base
+2017 Lexus GX 460 Base,50752,31998,None,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 Base,120432,24488,Good,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 Base,85539,28999,Good,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 460,70041,30993,Good,2017,Lexus,GX 460 460
@@ -318,7 +318,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2018 Lexus GX 460 460,74553,33999,Good,2018,Lexus,GX 460 460
 2018 Lexus GX 460 Base,61171,32990,Good,2018,Lexus,GX 460 Base
 2018 Lexus GX 460 Base,77976,30995,Good,2018,Lexus,GX 460 Base
-2018 Lexus GX 460 460,62507,33994,,2018,Lexus,GX 460 460
+2018 Lexus GX 460 460,62507,33994,None,2018,Lexus,GX 460 460
 2018 Lexus GX 460 Base,63641,32000,Good,2018,Lexus,GX 460 Base
 2018 Lexus GX 460 Base,58241,34998,Good,2018,Lexus,GX 460 Base
 2018 Lexus GX 460 Luxury,85873,36000,Good,2018,Lexus,GX 460 Luxury
@@ -397,7 +397,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2019 Lexus GX 460 Base,35827,39989,Good,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Premium,69711,35900,Good,2019,Lexus,GX 460 Premium
 2019 Lexus GX 460 Base,26840,40990,Good,2019,Lexus,GX 460 Base
-2019 Lexus GX 460 460,68989,33999,,2019,Lexus,GX 460 460
+2019 Lexus GX 460 460,68989,33999,None,2019,Lexus,GX 460 460
 2019 Lexus GX 460 Luxury,61113,39991,Good,2019,Lexus,GX 460 Luxury
 2019 Lexus GX 460 Base,67783,34595,Great,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Premium,30000,43995,Good,2019,Lexus,GX 460 Premium
@@ -439,8 +439,8 @@ Title,Miles,Price,Deal,Year,Make,Model
 2019 Lexus GX 460 Base,64052,36897,Fair,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Luxury,40193,44998,Fair,2019,Lexus,GX 460 Luxury
 2019 Lexus GX 460 Luxury,55277,41771,Good,2019,Lexus,GX 460 Luxury
-2019 Lexus GX 460 Base,53956,36998,,2019,Lexus,GX 460 Base
-2019 Lexus GX 460 Base,33093,37998,,2019,Lexus,GX 460 Base
+2019 Lexus GX 460 Base,53956,36998,None,2019,Lexus,GX 460 Base
+2019 Lexus GX 460 Base,33093,37998,None,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Base,51619,37985,Good,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Base,49424,36988,Good,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Base,89330,35988,Good,2019,Lexus,GX 460 Base
@@ -530,7 +530,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2019 Lexus GX 460 Base,87103,32490,Good,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Luxury,50030,36495,Good,2019,Lexus,GX 460 Luxury
 2019 Lexus GX 460,26267,39900,Great,2019,Lexus,GX 460
-2019 Lexus GX 460 Luxury,79030,37500,,2019,Lexus,GX 460 Luxury
+2019 Lexus GX 460 Luxury,79030,37500,None,2019,Lexus,GX 460 Luxury
 2020 Lexus GX 460 Base,44039,43491,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Premium,114348,36928,Fair,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Premium,38261,42980,Great,2020,Lexus,GX 460 Premium
@@ -548,20 +548,20 @@ Title,Miles,Price,Deal,Year,Make,Model
 2020 Lexus GX 460 Base,56867,38364,Fair,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,36976,40000,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,59001,42177,Good,2020,Lexus,GX 460 Base
-2020 Lexus GX 460 Base,90689,36974,,2020,Lexus,GX 460 Base
+2020 Lexus GX 460 Base,90689,36974,None,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,17823,42653,Great,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Luxury,59011,35993,Good,2020,Lexus,GX 460 Luxury
-2020 Lexus GX 460 Premium,44330,39995,,2020,Lexus,GX 460 Premium
+2020 Lexus GX 460 Premium,44330,39995,None,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Base,48102,42695,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,15089,45000,Great,2020,Lexus,GX 460 Base
-2020 Lexus GX 460 Luxury,86490,40995,,2020,Lexus,GX 460 Luxury
-2020 Lexus GX 460 Base,39202,43810,,2020,Lexus,GX 460 Base
+2020 Lexus GX 460 Luxury,86490,40995,None,2020,Lexus,GX 460 Luxury
+2020 Lexus GX 460 Base,39202,43810,None,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,59442,39498,Fair,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,44764,40700,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,28339,44998,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Premium,58467,39800,Good,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Luxury,60950,41466,Great,2020,Lexus,GX 460 Luxury
-2020 Lexus GX 460 Premium,43269,39988,,2020,Lexus,GX 460 Premium
+2020 Lexus GX 460 Premium,43269,39988,None,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Luxury,60004,40796,Good,2020,Lexus,GX 460 Luxury
 2020 Lexus GX 460 Base,41201,40201,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,28739,44000,Good,2020,Lexus,GX 460 Base
@@ -578,7 +578,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2020 Lexus GX 460 Base,12957,46000,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,52781,39998,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,64451,40591,Good,2020,Lexus,GX 460 Base
-2020 Lexus GX 460 Base,40331,45665,,2020,Lexus,GX 460 Base
+2020 Lexus GX 460 Base,40331,45665,None,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Premium,57197,40600,Fair,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Base,63129,41977,Fair,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,39753,41950,Good,2020,Lexus,GX 460 Base
@@ -591,7 +591,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2020 Lexus GX 460 Base,38870,44888,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,28358,40001,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,41002,42998,Fair,2020,Lexus,GX 460 Base
-2020 Lexus GX 460 Luxury,37521,44733,,2020,Lexus,GX 460 Luxury
+2020 Lexus GX 460 Luxury,37521,44733,None,2020,Lexus,GX 460 Luxury
 2020 Lexus GX 460 Luxury,45584,45989,Good,2020,Lexus,GX 460 Luxury
 2020 Lexus GX 460 Base,53050,39987,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,61228,39998,Good,2020,Lexus,GX 460 Base
@@ -632,8 +632,8 @@ Title,Miles,Price,Deal,Year,Make,Model
 2020 Lexus GX 460 Premium,45764,37327,Good,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Base,30562,45998,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Luxury,46549,44950,Good,2020,Lexus,GX 460 Luxury
-2020 Lexus GX 460 Base,56289,41998,,2020,Lexus,GX 460 Base
-2020 Lexus GX 460 Base,34088,40998,,2020,Lexus,GX 460 Base
+2020 Lexus GX 460 Base,56289,41998,None,2020,Lexus,GX 460 Base
+2020 Lexus GX 460 Base,34088,40998,None,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,22300,41773,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,30994,43947,Fair,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,41327,40000,Good,2020,Lexus,GX 460 Base
@@ -646,7 +646,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2020 Lexus GX 460 Premium,68021,38900,Fair,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Luxury,34637,44996,Good,2020,Lexus,GX 460 Luxury
 2020 Lexus GX 460 Base,33317,46963,Good,2020,Lexus,GX 460 Base
-2020 Lexus GX 460 Premium,37219,69999,,2020,Lexus,GX 460 Premium
+2020 Lexus GX 460 Premium,37219,69999,None,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Base,44498,40880,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Premium,23972,45960,Fair,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Base,32178,46995,Fair,2020,Lexus,GX 460 Base
@@ -661,9 +661,9 @@ Title,Miles,Price,Deal,Year,Make,Model
 2020 Lexus GX 460 Premium,53695,38900,Good,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Base,31790,42998,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Luxury,42610,42484,Good,2020,Lexus,GX 460 Luxury
-2020 Lexus GX 460 GX 460 Premium,36507,33795,,2020,Lexus,GX 460 GX 460 Premium
+2020 Lexus GX 460 GX 460 Premium,36507,33795,None,2020,Lexus,GX 460 GX 460 Premium
 2020 Lexus GX 460 Base,38993,44887,Good,2020,Lexus,GX 460 Base
-2020 Lexus GX 460 Base,42019,40998,,2020,Lexus,GX 460 Base
+2020 Lexus GX 460 Base,42019,40998,None,2020,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,46903,42800,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Premium,65192,43758,Good,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,37537,44998,Great,2021,Lexus,GX 460 Base
@@ -710,13 +710,13 @@ Title,Miles,Price,Deal,Year,Make,Model
 2021 Lexus GX 460 Base,29838,46692,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Premium,51920,40991,Great,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Premium,60370,41023,Good,2021,Lexus,GX 460 Premium
-2021 Lexus GX 460 Premium,29970,42990,,2021,Lexus,GX 460 Premium
+2021 Lexus GX 460 Premium,29970,42990,None,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Premium,40477,42716,Good,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,27565,43457,Fair,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,46689,46996,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Luxury,54628,47799,Fair,2021,Lexus,GX 460 Luxury
 2021 Lexus GX 460 Base,29330,45125,Good,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Base,49121,41492,,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Base,49121,41492,None,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Premium,25970,42777,Great,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,26275,48698,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,51333,42490,Good,2021,Lexus,GX 460 Base
@@ -776,7 +776,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2021 Lexus GX 460 Premium,19053,52998,Great,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,9990,44998,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,27502,45998,Good,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 GX 460 Premium 4WD,31735,46989,,2021,Lexus,GX 460 GX 460 Premium 4WD
+2021 Lexus GX 460 GX 460 Premium 4WD,31735,46989,None,2021,Lexus,GX 460 GX 460 Premium 4WD
 2021 Lexus GX 460 Premium,28214,43064,Good,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,15318,49995,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,38269,47495,Good,2021,Lexus,GX 460 Base
@@ -802,8 +802,8 @@ Title,Miles,Price,Deal,Year,Make,Model
 2021 Lexus GX 460 Base,36909,42798,Great,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Premium,45684,44494,Good,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Premium,23759,42999,Great,2021,Lexus,GX 460 Premium
-2021 Lexus GX 460 Base,28268,44998,,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Base,33420,42998,,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Base,28268,44998,None,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Base,33420,42998,None,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,31102,45998,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Luxury,40607,48995,Good,2021,Lexus,GX 460 Luxury
 2021 Lexus GX 460 Base,38089,47995,Good,2021,Lexus,GX 460 Base
@@ -932,8 +932,8 @@ Title,Miles,Price,Deal,Year,Make,Model
 2021 Lexus GX 460 Base,22108,40995,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,31787,48998,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,25679,46289,Good,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Base,122220,31987,,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Base,27904,62014,,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Base,122220,31987,None,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Base,27904,62014,None,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,32867,45500,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Luxury,25232,50000,Good,2021,Lexus,GX 460 Luxury
 2021 Lexus GX 460 Luxury,41644,49491,Good,2021,Lexus,GX 460 Luxury
@@ -1029,11 +1029,11 @@ Title,Miles,Price,Deal,Year,Make,Model
 2021 Lexus GX 460 Premium,88800,34998,Great,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,32972,45298,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,51578,43904,Great,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Base,66929,19950,,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Premium,31338,39450,,2021,Lexus,GX 460 Premium
+2021 Lexus GX 460 Base,66929,19950,None,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Premium,31338,39450,None,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Luxury,42342,47780,Good,2021,Lexus,GX 460 Luxury
 2021 Lexus GX 460 Base,44001,47900,Good,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Base,46102,49425,,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Base,46102,49425,None,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Premium,39085,46999,Fair,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,64040,38990,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Premium,48683,41392,Good,2021,Lexus,GX 460 Premium
@@ -1052,7 +1052,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2022 Lexus GX 460 460,23416,54163,Good,2022,Lexus,GX 460 460
 2022 Lexus GX 460 Premium,17069,48695,Fair,2022,Lexus,GX 460 Premium
 2022 Lexus GX 460 Premium,35323,46500,Great,2022,Lexus,GX 460 Premium
-2022 Lexus GX 460 Premium,44391,46400,,2022,Lexus,GX 460 Premium
+2022 Lexus GX 460 Premium,44391,46400,None,2022,Lexus,GX 460 Premium
 2022 Lexus GX 460 Base,32238,48995,Good,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,36515,53000,Fair,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,9159,54995,Good,2022,Lexus,GX 460 Base
@@ -1065,7 +1065,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2022 Lexus GX 460 Base,30814,50262,Good,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Premium,29000,49000,Great,2022,Lexus,GX 460 Premium
 2022 Lexus GX 460 Premium,28321,53995,Good,2022,Lexus,GX 460 Premium
-2022 Lexus GX 460 Base,27997,52888,,2022,Lexus,GX 460 Base
+2022 Lexus GX 460 Base,27997,52888,None,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,13931,52800,Good,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 AWD 4dr SUV,51301,50995,Fair,2022,Lexus,GX 460 AWD 4dr SUV
 2022 Lexus GX 460 Base,15272,55990,Good,2022,Lexus,GX 460 Base
@@ -1104,7 +1104,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2022 Lexus GX 460 Base,35744,52250,Good,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,14478,51672,Good,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Premium,35326,50998,Fair,2022,Lexus,GX 460 Premium
-2022 Lexus GX 460 Luxury,14161,60998,,2022,Lexus,GX 460 Luxury
+2022 Lexus GX 460 Luxury,14161,60998,None,2022,Lexus,GX 460 Luxury
 2022 Lexus GX 460 Base,30415,59493,Fair,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,61118,45420,Fair,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,36747,47995,Good,2022,Lexus,GX 460 Base
@@ -1136,10 +1136,10 @@ Title,Miles,Price,Deal,Year,Make,Model
 2022 Lexus GX 460 Premium,29550,53995,Good,2022,Lexus,GX 460 Premium
 2022 Lexus GX 460 Base,34375,52900,Good,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,6239,54422,Good,2022,Lexus,GX 460 Base
-2022 Lexus GX 460 Premium,36763,50988,,2022,Lexus,GX 460 Premium
+2022 Lexus GX 460 Premium,36763,50988,None,2022,Lexus,GX 460 Premium
 2022 Lexus GX 460 Base,52028,49900,Fair,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Premium,8031,55989,Good,2022,Lexus,GX 460 Premium
-2022 Lexus GX 460 Base,19940,50789,,2022,Lexus,GX 460 Base
+2022 Lexus GX 460 Base,19940,50789,None,2022,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,6794,55874,Good,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,28133,57998,Good,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Premium,7106,62590,Great,2023,Lexus,GX 460 Premium
@@ -1173,7 +1173,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2023 Lexus GX 460 Premium,8541,60999,Good,2023,Lexus,GX 460 Premium
 2023 Lexus GX 460 Base,10741,55008,Fair,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,16187,58000,Good,2023,Lexus,GX 460 Base
-2023 Lexus GX 460,4633,64988,,2023,Lexus,GX 460
+2023 Lexus GX 460,4633,64988,None,2023,Lexus,GX 460
 2023 Lexus GX 460 GX 460 Premium,9599,60000,Good,2023,Lexus,GX 460 GX 460 Premium
 2023 Lexus GX 460 Luxury,15849,67657,Fair,2023,Lexus,GX 460 Luxury
 2023 Lexus GX 460 Base,7445,60991,Good,2023,Lexus,GX 460 Base
@@ -1292,25 +1292,25 @@ Title,Miles,Price,Deal,Year,Make,Model
 2023 Lexus GX 460 Base,10863,60598,Good,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Luxury,17624,65663,Good,2023,Lexus,GX 460 Luxury
 2023 Lexus GX 460 Base,36295,55000,Fair,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Premium,20966,35900,,2023,Lexus,GX 460 Premium
+2023 Lexus GX 460 Premium,20966,35900,None,2023,Lexus,GX 460 Premium
 2023 Lexus GX 460 Base,995,58888,Good,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,10,62526,,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Premium,8000,63000,,2023,Lexus,GX 460 Premium
+2023 Lexus GX 460 Base,10,62526,None,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Premium,8000,63000,None,2023,Lexus,GX 460 Premium
 2014 Lexus GX 460 460,142108,22500,Good,2014,Lexus,GX 460 460
-2014 Lexus GX 460 Base,106988,24988,,2014,Lexus,GX 460 Base
+2014 Lexus GX 460 Base,106988,24988,None,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Base,135218,22988,Fair,2014,Lexus,GX 460 Base
-2014 Lexus GX 460 Base,112359,26992,,2014,Lexus,GX 460 Base
+2014 Lexus GX 460 Base,112359,26992,None,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Luxury,123663,24999,Fair,2014,Lexus,GX 460 Luxury
-2014 Lexus GX 460 Base,57669,28888,,2014,Lexus,GX 460 Base
+2014 Lexus GX 460 Base,57669,28888,None,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 Base,94734,26480,Fair,2014,Lexus,GX 460 Base
 2014 Lexus GX 460 460,175163,18999,Fair,2014,Lexus,GX 460 460
 2015 Lexus GX 460 Base,109091,26900,Good,2015,Lexus,GX 460 Base
-2015 Lexus GX 460 Base,0,23995,,2015,Lexus,GX 460 Base
+2015 Lexus GX 460 Base,0,23995,None,2015,Lexus,GX 460 Base
 2015 Lexus GX 460 460,138400,24995,Fair,2015,Lexus,GX 460 460
 2015 Lexus GX 460 Base,100093,26800,Good,2015,Lexus,GX 460 Base
 2015 Lexus GX 460 Base,92634,26088,Good,2015,Lexus,GX 460 Base
 2015 Lexus GX 460 Base,83107,25899,Good,2015,Lexus,GX 460 Base
-2016 Lexus GX 460 Base,75335,28998,,2016,Lexus,GX 460 Base
+2016 Lexus GX 460 Base,75335,28998,None,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 Base,100085,24899,Great,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 Base,202011,24436,Fair,2016,Lexus,GX 460 Base
 2016 Lexus GX 460 Base,65155,28315,Great,2016,Lexus,GX 460 Base
@@ -1321,27 +1321,27 @@ Title,Miles,Price,Deal,Year,Make,Model
 2017 Lexus GX 460 Luxury,136228,26500,Good,2017,Lexus,GX 460 Luxury
 2017 Lexus GX 460 Base,64714,30760,Good,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 Base,91510,29995,Good,2017,Lexus,GX 460 Base
-2017 Lexus GX 460 Base,0,32060,,2017,Lexus,GX 460 Base
-2017 Lexus GX 460 Base,101966,27474,,2017,Lexus,GX 460 Base
+2017 Lexus GX 460 Base,0,32060,None,2017,Lexus,GX 460 Base
+2017 Lexus GX 460 Base,101966,27474,None,2017,Lexus,GX 460 Base
 2017 Lexus GX 460 460,89583,28455,Good,2017,Lexus,GX 460 460
 2018 Lexus GX 460 460,70062,32288,Good,2018,Lexus,GX 460 460
 2018 Lexus GX 460 Base,70987,32000,Good,2018,Lexus,GX 460 Base
 2018 Lexus GX 460 Luxury,86033,32999,Good,2018,Lexus,GX 460 Luxury
 2018 Lexus GX 460 GX 460,77861,32995,Good,2018,Lexus,GX 460 GX 460
 2018 Lexus GX 460 Base,85401,30595,Good,2018,Lexus,GX 460 Base
-2018 Lexus GX 460 Base,25348,38998,,2018,Lexus,GX 460 Base
+2018 Lexus GX 460 Base,25348,38998,None,2018,Lexus,GX 460 Base
 2018 Lexus GX 460 Base,95249,29975,Good,2018,Lexus,GX 460 Base
-2018 Lexus GX 460 Luxury,93971,34916,,2018,Lexus,GX 460 Luxury
+2018 Lexus GX 460 Luxury,93971,34916,None,2018,Lexus,GX 460 Luxury
 2018 Lexus GX 460 Base,106602,27331,Great,2018,Lexus,GX 460 Base
 2018 Lexus GX 460 Luxury,106680,31991,Good,2018,Lexus,GX 460 Luxury
-2018 Lexus GX 460 Base,90816,30990,,2018,Lexus,GX 460 Base
+2018 Lexus GX 460 Base,90816,30990,None,2018,Lexus,GX 460 Base
 2018 Lexus GX 460 Base,108177,30995,Good,2018,Lexus,GX 460 Base
-2018 Lexus GX 460 Base,44733,34289,,2018,Lexus,GX 460 Base
-2019 Lexus GX 460 Base,58900,33966,,2019,Lexus,GX 460 Base
+2018 Lexus GX 460 Base,44733,34289,None,2018,Lexus,GX 460 Base
+2019 Lexus GX 460 Base,58900,33966,None,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Base,66965,36415,Good,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Luxury,31723,47995,Fair,2019,Lexus,GX 460 Luxury
 2019 Lexus GX 460 Base,72288,33995,Good,2019,Lexus,GX 460 Base
-2019 Lexus GX 460 Base,99550,36162,,2019,Lexus,GX 460 Base
+2019 Lexus GX 460 Base,99550,36162,None,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Base,61493,36999,Good,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Base,42114,41788,Good,2019,Lexus,GX 460 Base
 2019 Lexus GX 460 Base,46056,38310,Good,2019,Lexus,GX 460 Base
@@ -1350,13 +1350,13 @@ Title,Miles,Price,Deal,Year,Make,Model
 2019 Lexus GX 460 Premium,57134,35480,Good,2019,Lexus,GX 460 Premium
 2019 Lexus GX 460 Premium,81510,31600,Good,2019,Lexus,GX 460 Premium
 2019 Lexus GX 460 Base,52632,38000,Good,2019,Lexus,GX 460 Base
-2019 Lexus GX 460 Base,35742,38998,,2019,Lexus,GX 460 Base
+2019 Lexus GX 460 Base,35742,38998,None,2019,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,31646,43997,Fair,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,75552,34896,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,119975,38995,Fair,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Premium,45523,45950,Good,2020,Lexus,GX 460 Premium
 2020 Lexus GX 460 Base,28427,40000,Good,2020,Lexus,GX 460 Base
-2020 Lexus GX 460 Base,39431,38991,,2020,Lexus,GX 460 Base
+2020 Lexus GX 460 Base,39431,38991,None,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,49674,38241,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Base,36524,42777,Good,2020,Lexus,GX 460 Base
 2020 Lexus GX 460 Premium,43653,40997,Good,2020,Lexus,GX 460 Premium
@@ -1367,14 +1367,14 @@ Title,Miles,Price,Deal,Year,Make,Model
 2021 Lexus GX 460 Base,27123,48981,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Luxury,15358,57985,Fair,2021,Lexus,GX 460 Luxury
 2021 Lexus GX 460 Base,21328,47932,Good,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Premium,45985,42000,,2021,Lexus,GX 460 Premium
+2021 Lexus GX 460 Premium,45985,42000,None,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,50417,41995,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,33206,48999,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,30807,48995,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,36414,45000,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,48000,38792,Great,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,20673,50993,Fair,2021,Lexus,GX 460 Base
-2021 Lexus GX 460 Base,26671,44991,,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Base,26671,44991,None,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,25967,48598,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,38941,49425,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,48929,43841,Good,2021,Lexus,GX 460 Base
@@ -1387,7 +1387,7 @@ Title,Miles,Price,Deal,Year,Make,Model
 2021 Lexus GX 460 Base,32288,45999,Good,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,24610,40763,Great,2021,Lexus,GX 460 Base
 2021 Lexus GX 460,45752,46894,Good,2021,Lexus,GX 460
-2021 Lexus GX 460 Base,41895,43998,,2021,Lexus,GX 460 Base
+2021 Lexus GX 460 Base,41895,43998,None,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Premium,28187,45800,Good,2021,Lexus,GX 460 Premium
 2021 Lexus GX 460 Base,30503,41779,Great,2021,Lexus,GX 460 Base
 2021 Lexus GX 460 Base,38947,47997,Fair,2021,Lexus,GX 460 Base
@@ -1402,41 +1402,41 @@ Title,Miles,Price,Deal,Year,Make,Model
 2022 Lexus GX 460 Base,34784,52495,Good,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Premium,34428,54501,Good,2022,Lexus,GX 460 Premium
 2022 Lexus GX 460 Base,22568,52995,Good,2022,Lexus,GX 460 Base
-2022 Lexus GX 460 Base,25890,52565,,2022,Lexus,GX 460 Base
-2022 Lexus GX 460,44904,51995,,2022,Lexus,GX 460
+2022 Lexus GX 460 Base,25890,52565,None,2022,Lexus,GX 460 Base
+2022 Lexus GX 460,44904,51995,None,2022,Lexus,GX 460
 2022 Lexus GX 460 Premium,33342,51888,Fair,2022,Lexus,GX 460 Premium
-2022 Lexus GX 460 Base,61358,48997,,2022,Lexus,GX 460 Base
+2022 Lexus GX 460 Base,61358,48997,None,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,27918,53866,Good,2022,Lexus,GX 460 Base
-2022 Lexus GX 460,48863,49000,,2022,Lexus,GX 460
+2022 Lexus GX 460,48863,49000,None,2022,Lexus,GX 460
 2022 Lexus GX 460 Base,20871,54924,Fair,2022,Lexus,GX 460 Base
 2022 Lexus GX 460 Base,12182,54899,Good,2022,Lexus,GX 460 Base
-2022 Lexus GX 460 Base,48737,44998,,2022,Lexus,GX 460 Base
+2022 Lexus GX 460 Base,48737,44998,None,2022,Lexus,GX 460 Base
 2023 Lexus GX 460 Premium,23766,55467,Good,2023,Lexus,GX 460 Premium
-2023 Lexus GX 460 Base,5,65390,,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Base,5,65390,None,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,43989,53994,Fair,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,5,63855,,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,12280,62669,,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Luxury,10,64987,,2023,Lexus,GX 460 Luxury
-2023 Lexus GX 460 Base,5,65662,,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Base,5,63855,None,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Base,12280,62669,None,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Luxury,10,64987,None,2023,Lexus,GX 460 Luxury
+2023 Lexus GX 460 Base,5,65662,None,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,22601,57386,Good,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,6405,59988,,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Base,6405,59988,None,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,8440,63990,Fair,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,30139,55990,Good,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,1924,61297,Good,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Luxury,5704,68000,,2023,Lexus,GX 460 Luxury
-2023 Lexus GX 460 Base,17677,60998,,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Luxury,5704,68000,None,2023,Lexus,GX 460 Luxury
+2023 Lexus GX 460 Base,17677,60998,None,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,33576,55366,Good,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,4978,59000,,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,3880,63975,,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,5,62630,,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Base,4978,59000,None,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Base,3880,63975,None,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Base,5,62630,None,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,6401,59999,Good,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,9074,58500,Fair,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,2604,60344,,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Luxury,11211,62856,,2023,Lexus,GX 460 Luxury
+2023 Lexus GX 460 Base,2604,60344,None,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Luxury,11211,62856,None,2023,Lexus,GX 460 Luxury
 2023 Lexus GX 460 Luxury,48835,59488,Fair,2023,Lexus,GX 460 Luxury
 2023 Lexus GX 460 Luxury,13373,62667,Good,2023,Lexus,GX 460 Luxury
 2023 Lexus GX 460 Base,24314,55891,Great,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,25028,57119,Good,2023,Lexus,GX 460 Base
 2023 Lexus GX 460 Base,2243,60985,Good,2023,Lexus,GX 460 Base
-2023 Lexus GX 460 Base,142,64995,,2023,Lexus,GX 460 Base
+2023 Lexus GX 460 Base,142,64995,None,2023,Lexus,GX 460 Base
 2023 Lexus GX 460,13470,59500,Good,2023,Lexus,GX 460

@@ -13,7 +13,30 @@ from datetime import date
 # Set Desired Filters and set the number of pages to scrape.
 # URL of first page and number of total pages
 firstURL = 'https://www.cars.com/shopping/results/?dealer_id=&keyword=&list_price_max=&list_price_min=&makes[]=lexus&maximum_distance=all&mileage_max=&models[]=lexus-gx_460&monthly_payment=&page=1&page_size=100&sort=year&stock_type=used&year_max=&year_min=2014&zip=75208'
-numPages = 15
+
+# Function to get the number of pages
+# Site redirects to last page when page over last page is called 
+def returnNumPages(URL):
+    # Initialize page number to a large value
+    page_number = 1000
+
+    # Replace "page=1" with "page=1000" in the URL
+    new_url = URL.replace("page=1", f"page={page_number}")
+
+    # Send a request to get the redirected URL
+    response = requests.get(new_url, allow_redirects=False)
+
+    # Get the redirected URL from the response headers
+    redirected_url = response.headers['Location']
+
+    # Extract the page number from the redirected URL
+    last_page_number = int(redirected_url.split('page=')[-1].split('&')[0])
+
+    return last_page_number
+
+# Call the function to get the number of pages
+numPages = returnNumPages(firstURL)
+
 
 # Initialize the URLs list with the firstURL
 URLs = [firstURL]
