@@ -19,7 +19,7 @@ This project involves scraping data from Cars.com using a Python script (`carsDo
 ## Usage
 
 1. **Scraping Data**:
-   - Edit `carsDotComScrape.py` to modify the URL, filters, and number of pages to scrape if needed.
+   - Edit `carsDotComScrape.py` to modify the URL with desired filters.
    - Run `carsDotComScrape.py` to extract data and store it in `output_DATE.csv`.
 
 2. **Cleaning Data**:
