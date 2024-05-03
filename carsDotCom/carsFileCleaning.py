@@ -9,12 +9,12 @@
 import pandas as pd
 
 # Define the path to the CSV file containing the car data
-path = 'carsDotCom/output_Apr-27-2024'
+path = 'carsDotCom/data/output_May-03-2024'
 
 # Read the data from the CSV file into a pandas DataFrame named 'cars'
 # Specify column names as "Title", "Miles", "Price", and "Deal"
 cars = pd.read_csv(path+'.csv',  
-                   names=["Title", "Miles", "Price", "Deal"])
+                   names=["Title", "Miles", "Price", "Deal","Stock"])
 
 # Drop if no title
 cars = cars.dropna(subset=['Title'])
@@ -24,6 +24,9 @@ cars = cars[~cars['Title'].str.contains('None')]
 cars['Year']=cars['Title'].str.split(' ').str[0]
 cars['Make']=cars['Title'].str.split(' ').str[1]
 cars['Model']=cars['Title'].str.split(' ').str[2:].str.join(" ")
+
+# Extract sub-model info
+cars['Sub_Model'] = cars['Model'].str.lower().apply(lambda x: 'Luxury' if 'luxury' in x else ('Premium' if 'premium' in x else 'Base'))
 
 # Remove the last 4 characters from the 'Miles' column to remove ' miles'
 cars['Miles']=cars['Miles'].str[:-4]
@@ -53,6 +56,6 @@ cars['Miles'] = cars['Miles'].replace('', '0').astype(int)
 
 
 # Write the cleaned data back to a new CSV file with 'cleaned' appended to the original file name
-cars.to_csv(path+'_cleaned.csv', mode='a', index=False, header=True)
+cars.to_csv(path+'_cleaned.csv', mode='w', index=False, header=True)
 
 

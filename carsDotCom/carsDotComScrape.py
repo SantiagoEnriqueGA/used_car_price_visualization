@@ -12,7 +12,7 @@ from datetime import date
 
 # Set Desired Filters and set the number of pages to scrape.
 # URL of first page and number of total pages
-firstURL = 'https://www.cars.com/shopping/results/?dealer_id=&keyword=&list_price_max=&list_price_min=&makes[]=lexus&maximum_distance=all&mileage_max=&models[]=lexus-gx_460&monthly_payment=&page=1&page_size=100&sort=year&stock_type=used&year_max=&year_min=2014&zip=75208'
+firstURL = 'https://www.cars.com/shopping/results/?dealer_id=&keyword=&list_price_max=&list_price_min=&makes[]=lexus&maximum_distance=all&mileage_max=&models[]=lexus-gx_460&monthly_payment=&page=1&page_size=100&sort=year&stock_type=all&year_max=&year_min=2014&zip=75208'
 
 # Function to get the number of pages
 # Site redirects to last page when page over last page is called 
@@ -36,7 +36,7 @@ def returnNumPages(URL):
 
 # Call the function to get the number of pages
 numPages = returnNumPages(firstURL)
-
+print(f"Scraping data from {numPages} pages.")
 
 # Initialize the URLs list with the firstURL
 URLs = [firstURL]
@@ -72,6 +72,9 @@ for URL in URLs:
     deal_info = []
     for item in content_list:
         deal_info.append(item.find_all('button', attrs={'data-qa':'vehicle-badging'}))
+    stock_info = []
+    for item in content_list:
+        stock_info.append(item.find_all('p', attrs={'class':'stock-type'}))
 
     # Define functions to extract data from the parsed HTML and add it to lists
     def get_names(title_info):
@@ -112,6 +115,15 @@ for URL in URLs:
                 else:
                     deal.append('None')  # If no matching span found, append 'None'
         return deal
+    def get_stock(stock_info):
+        stock = []
+        for item in stock_info:
+            if len(item) == 0:
+                stock.append('None')
+            else:
+                stock.append(item[0].text.strip())
+        return stock
+
 
 
     # Call the functions to extract data and store the results in lists
@@ -119,6 +131,7 @@ for URL in URLs:
     car_miles = get_miles(mile_info)
     car_price = get_price(price_info)
     car_deal = get_deal(deal_info)
+    car_stock = get_stock(stock_info)
 
 
     # Create a DataFrame using Pandas to organize the extracted data
@@ -126,16 +139,17 @@ for URL in URLs:
         {'name': car_names,
         'miles': car_miles,
         'price': car_price,
-        'deal': car_deal
+        'deal': car_deal,
+        'stock': car_stock
         })
 
 
     # Print the DataFrame (optional for debugging purposes)
     # print(carDf)
-
+    
     # Append the data from the DataFrame to a CSV file named 'output.csv'
     today = date.today()
     todayDate = today.strftime("%b-%d-%Y")
-    carDf.to_csv('carsDotCom/output_'+todayDate+'.csv', mode='a', index=False, header=False)
+    carDf.to_csv('carsDotCom/data/output_'+todayDate+'.csv', mode='a', index=False, header=False)
 
-print('CSV Written to: carsDotCom/output_'+todayDate+'.csv')
+print('CSV Written to: carsDotCom/data/output_'+todayDate+'.csv')
