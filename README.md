@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves scraping data from Cars.com using a Python script (`carsDotComScrape.py`), cleaning the scraped data using another Python script (`carsFileCleaning.py`), and visualizing the cleaned data using a Jupyter Notebook (`carsVis.ipynb`).
+This project involves scraping data from Cars.com using a Python script (`carsDotComScrape.py`), cleaning the scraped data using another Python script (`carsFileCleaning.py`), and visualizing the cleaned data using a Jupyter Notebook (`carsVis.ipynb`). Additionally, it includes the creation and evaluation of machine learning models to predict car prices based on various features.
 
 ## Files
 
@@ -10,7 +10,7 @@ This project involves scraping data from Cars.com using a Python script (`carsDo
 
 2. **carsFileCleaning.py**: After scraping the data, this script cleans the CSV file by removing rows with missing or irrelevant information, extracting year, make, and model details from the title, formatting numerical data like miles and price, and storing the cleaned data in a new CSV file (`output_DATE_cleaned.csv`).
 
-3. **carsVis.ipynb**: This Jupyter Notebook loads the cleaned data from `output_DATE_cleaned.csv`, performs data visualization using matplotlib and seaborn libraries, including scatter plots with regression lines, joint plots with regression analysis, and linear regression models to analyze the relationship between mileage and price.
+3. **carsVis.ipynb**: This Jupyter Notebook loads the cleaned data from `output_DATE_cleaned.csv`, performs data visualization using matplotlib and seaborn libraries, including scatter plots with regression lines, joint plots with regression analysis, and linear regression models to analyze the relationship between mileage and price. It also includes polynomial regression analysis.
 
 4. **output_DATE.csv**: The raw data scraped from Cars.com listings before cleaning.
 
@@ -28,6 +28,9 @@ This project involves scraping data from Cars.com using a Python script (`carsDo
 3. **Visualizing Data**:
    - Open and run `carsVis.ipynb` in a Jupyter Notebook environment to visualize the cleaned data and perform analysis.
 
+4. **Modeling**:
+   - The Jupyter Notebook (`carsVis.ipynb`) includes machine learning models like Linear Regression, Ridge Regression, and Random Forest Regression to predict car prices based on features like mileage, year, stock status, and sub-model.
+
 ## Dependencies
 
 - Python 3.x
@@ -37,3 +40,4 @@ This project involves scraping data from Cars.com using a Python script (`carsDo
 - matplotlib
 - seaborn
 - scikit-learn
+
