@@ -6,7 +6,15 @@ from datetime import date
 
 # Define a class for scraping Cars.com data
 class CarsDotComScraper:
-    """A class for scraping data from Cars.com."""
+    """
+    A class to scrape data from cars.com website.
+
+    Attributes:
+        first_url (str): The URL of the first page to scrape.
+        num_pages (int): The number of pages for pagination.
+        urls (list): List of URLs for all pages.
+        today_date (str): The current date for naming the output file.
+    """
 
     def __init__(self, first_url):
         """
