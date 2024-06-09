@@ -1,4 +1,4 @@
 # ignore cache
 __pycache__/
 
-*.html
+html/
