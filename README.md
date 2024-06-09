@@ -33,6 +33,18 @@ This project involves scraping data from Cars.com using Python scripts and analy
 2. **Visualizing Data**:
    - Open and run `GX460_Vis.ipynb` in a Jupyter Notebook environment to visualize the cleaned data and perform analysis.
 
+## Example Plots
+**See carsVis.ipynb for more**
+
+![alt text](https://raw.githubusercontent.com/SantiagoEnriqueGA/used_car_price_visualization/main/carsDotCom/plots/Violin%20and%20Box%20plots%20for%20'Year'%20vs%20'Price'.png)
+
+
+![alt text](https://raw.githubusercontent.com/SantiagoEnriqueGA/used_car_price_visualization/main/carsDotCom/plots/Car%20Price%20vs%20Miles%20Driven%20(Color%20Coded%20by%20Year).png)
+
+
+![alt text](https://raw.githubusercontent.com/SantiagoEnriqueGA/used_car_price_visualization/main/carsDotCom/plots/Polynomial%20Car%20Price%20vs%20Miles%20Driven.png)
+
+
 ## Dependencies
 
 - Python 3.x
